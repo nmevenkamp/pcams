@@ -3,7 +3,8 @@ ___
 A **variational multi-phase segmentation** framework based on the **Mumford-Shah** energy, combined with **PCA**-based dimension reduction is used to segment color or gray-value images into regions of different structure identified by **high-dimensional features**, such as **local spectral histograms (Texture)** or **localized Fourier transforms (Crystals)**.
 ___
 **CONTENTS**: This package contains the source code used to produce texture and crystal segmentation results published at WACV 2016 (see reference below).
-    |- quocmesh: **source code**\n
+
+    |- quocmesh: **source code**
     |+ - quocmesh/finishedProjects/highDimFeatureSegmentation: **WACV 2016 executables**
     |- quocGCC: **compilation folder**
     |+ - quocGCC/go.sh: bash script for CMake (see README.txt)
@@ -16,7 +17,6 @@ ___
     |- results: same structure as data; contains segmentations produced by this code
     |+ - results/ICPR2014/Raw: segmentations before TxtMerge post-processing
     |+ - results/ICPR2014/TxtMerge: segmentations after TxtMerge post-processing (using quocGCC/finishedProjects/highDimFeatureSegmentation/applyTxtMerge.m)
-
 ___
 **LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
 ___
