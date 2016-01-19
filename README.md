@@ -4,9 +4,9 @@ A **variational multi-phase segmentation** framework based on the **Mumford-Shah
 ___
 **CONTENTS**: This package contains the source code used to produce texture and crystal segmentation results published at WACV 2016 (see reference below).
 
-    |- quocmesh: **source code**
-    |+ - quocmesh/finishedProjects/highDimFeatureSegmentation: **WACV 2016 executables**
-    |- quocGCC: **compilation folder**
+    |- quocmesh: source code
+    |+ - quocmesh/finishedProjects/highDimFeatureSegmentation: WACV 2016 executables
+    |- quocGCC: compilation folder
     |+ - quocGCC/go.sh: bash script for CMake (see README.txt)
     |- LICENSE.txt: Common Development and Distribution License
     |- README.md: this README
