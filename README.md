@@ -18,9 +18,11 @@ ___
     |+ - results/ICPR2014/Raw: segmentations before TxtMerge post-processing
     |+ - results/ICPR2014/TxtMerge: segmentations after TxtMerge post-processing (using quocGCC/finishedProjects/highDimFeatureSegmentation/applyTxtMerge.m)
 ___
-INSTRUCTIONS: Please see the accompanying README.txt
+**INSTRUCTIONS**: Please see the accompanying README.txt
 ___
-**LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
+**LICENSE*: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
+___
+**CONTACT**: mevenkamp@aices.rwth-aachen.de
 ___
 In case you want to refer to PCA-MS, please use the following citation:
 
