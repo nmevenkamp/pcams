@@ -1,0 +1,12 @@
+SET ( SELECTED_MODULES
+	modules/aol 
+    modules/quoc
+)
+
+# projects that have their own CMakeLists.txt.
+SET ( SELECTED_PROJECTS )
+
+# projects that use CMakeLists.project.txt.
+SET ( SELECTED_STDPROJECTS
+	finishedProjects/highDimFeatureSegmentation
+)

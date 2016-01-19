@@ -1,0 +1,1793 @@
+<main>
+  <var name="Label">"Benchmark dataset - ICPR 2014 contest"</var>
+  <var name="NumOfSets">20</var>
+  <section name="Set_1">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#3 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask1_1.png"</var>
+      <var name="Segments">3</var>
+      <var name="Seed">1</var>
+      <var name="PointsX[3]">216.000000 359.000000 107.000000</var>
+      <var name="PointsY[3]">396.000000 236.000000 229.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt1_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm1_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg1_1_1.png"</var>
+      <var name="Seed">1</var>
+      <var name="Textures[3]">"99.A" "46.A" "52.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm1_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg1_1_2.png"</var>
+      <var name="Seed">2</var>
+      <var name="Textures[3]">"68.A" "83.A" "18.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask1_2.png"</var>
+      <var name="Segments">3</var>
+      <var name="Seed">2</var>
+      <var name="PointsX[3]">340.000000 253.000000 240.000000</var>
+      <var name="PointsY[3]">292.000000 124.000000 414.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt1_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm1_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg1_2_1.png"</var>
+      <var name="Seed">1</var>
+      <var name="Textures[3]">"99.A" "46.A" "52.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm1_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg1_2_2.png"</var>
+      <var name="Seed">2</var>
+      <var name="Textures[3]">"68.A" "83.A" "18.A"</var>
+    </section>
+  </section>
+  <section name="Set_2">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#4 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask2_1.png"</var>
+      <var name="Segments">4</var>
+      <var name="Seed">11</var>
+      <var name="PointsX[4]">331.000000 320.000000 276.000000 91.000000</var>
+      <var name="PointsY[4]">400.000000 432.000000 112.000000 69.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt2_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm2_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg2_1_1.png"</var>
+      <var name="Seed">11</var>
+      <var name="Textures[4]">"100.A" "80.A" "110.A" "77.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm2_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg2_1_2.png"</var>
+      <var name="Seed">12</var>
+      <var name="Textures[4]">"44.A" "31.A" "84.A" "59.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask2_2.png"</var>
+      <var name="Segments">4</var>
+      <var name="Seed">12</var>
+      <var name="PointsX[4]">166.000000 259.000000 183.000000 372.000000</var>
+      <var name="PointsY[4]">209.000000 346.000000 196.000000 70.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt2_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm2_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg2_2_1.png"</var>
+      <var name="Seed">11</var>
+      <var name="Textures[4]">"100.A" "80.A" "110.A" "77.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm2_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg2_2_2.png"</var>
+      <var name="Seed">12</var>
+      <var name="Textures[4]">"44.A" "31.A" "84.A" "59.A"</var>
+    </section>
+  </section>
+  <section name="Set_3">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#5 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask3_1.png"</var>
+      <var name="Segments">5</var>
+      <var name="Seed">21</var>
+      <var name="PointsX[5]">232.000000 323.000000 405.000000 315.000000 277.000000</var>
+      <var name="PointsY[5]">242.000000 431.000000 363.000000 282.000000 221.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt3_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm3_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg3_1_1.png"</var>
+      <var name="Seed">21</var>
+      <var name="Textures[5]">"53.A" "50.A" "109.A" "78.A" "89.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm3_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg3_1_2.png"</var>
+      <var name="Seed">22</var>
+      <var name="Textures[5]">"72.A" "73.A" "82.A" "45.A" "48.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask3_2.png"</var>
+      <var name="Segments">5</var>
+      <var name="Seed">22</var>
+      <var name="PointsX[5]">303.000000 213.000000 339.000000 437.000000 354.000000</var>
+      <var name="PointsY[5]">304.000000 340.000000 223.000000 368.000000 229.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt3_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm3_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg3_2_1.png"</var>
+      <var name="Seed">21</var>
+      <var name="Textures[5]">"53.A" "50.A" "109.A" "78.A" "89.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm3_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg3_2_2.png"</var>
+      <var name="Seed">22</var>
+      <var name="Textures[5]">"72.A" "73.A" "82.A" "45.A" "48.A"</var>
+    </section>
+  </section>
+  <section name="Set_4">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#6 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask4_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">31</var>
+      <var name="PointsX[6]">367.000000 241.000000 293.000000 332.000000 212.000000 403.000000</var>
+      <var name="PointsY[6]">221.000000 98.000000 378.000000 254.000000 120.000000 255.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt4_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm4_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg4_1_1.png"</var>
+      <var name="Seed">31</var>
+      <var name="Textures[6]">"47.A" "91.A" "11.A" "53.A" "94.A" "69.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm4_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg4_1_2.png"</var>
+      <var name="Seed">32</var>
+      <var name="Textures[6]">"74.A" "76.A" "29.A" "100.A" "54.A" "32.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask4_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">32</var>
+      <var name="PointsX[6]">317.000000 397.000000 170.000000 161.000000 94.000000 396.000000</var>
+      <var name="PointsY[6]">310.000000 160.000000 243.000000 233.000000 136.000000 250.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt4_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm4_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg4_2_1.png"</var>
+      <var name="Seed">31</var>
+      <var name="Textures[6]">"47.A" "91.A" "11.A" "53.A" "94.A" "69.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm4_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg4_2_2.png"</var>
+      <var name="Seed">32</var>
+      <var name="Textures[6]">"74.A" "76.A" "29.A" "100.A" "54.A" "32.A"</var>
+    </section>
+  </section>
+  <section name="Set_5">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#7 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask5_1.png"</var>
+      <var name="Segments">7</var>
+      <var name="Seed">41</var>
+      <var name="PointsX[7]">248.000000 172.000000 385.000000 214.000000 139.000000 303.000000 389.000000</var>
+      <var name="PointsY[7]">125.000000 402.000000 365.000000 199.000000 186.000000 228.000000 259.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt5_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm5_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg5_1_1.png"</var>
+      <var name="Seed">41</var>
+      <var name="Textures[7]">"19.A" "55.A" "101.A" "33.A" "90.A" "96.A" "41.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm5_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg5_1_2.png"</var>
+      <var name="Seed">42</var>
+      <var name="Textures[7]">"58.A" "84.A" "11.A" "83.A" "85.A" "77.A" "6.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask5_2.png"</var>
+      <var name="Segments">7</var>
+      <var name="Seed">42</var>
+      <var name="PointsX[7]">344.000000 342.000000 321.000000 249.000000 75.000000 403.000000 101.000000</var>
+      <var name="PointsY[7]">257.000000 98.000000 347.000000 82.000000 110.000000 134.000000 141.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt5_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm5_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg5_2_1.png"</var>
+      <var name="Seed">41</var>
+      <var name="Textures[7]">"19.A" "55.A" "101.A" "33.A" "90.A" "96.A" "41.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm5_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg5_2_2.png"</var>
+      <var name="Seed">42</var>
+      <var name="Textures[7]">"58.A" "84.A" "11.A" "83.A" "85.A" "77.A" "6.A"</var>
+    </section>
+  </section>
+  <section name="Set_6">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#8 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask6_1.png"</var>
+      <var name="Segments">8</var>
+      <var name="Seed">51</var>
+      <var name="PointsX[8]">271.000000 282.000000 76.000000 436.000000 277.000000 155.000000 94.000000 151.000000</var>
+      <var name="PointsY[8]">250.000000 233.000000 258.000000 174.000000 416.000000 90.000000 219.000000 388.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt6_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm6_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg6_1_1.png"</var>
+      <var name="Seed">51</var>
+      <var name="Textures[8]">"56.A" "62.A" "51.A" "65.A" "58.A" "4.A" "33.A" "111.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm6_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg6_1_2.png"</var>
+      <var name="Seed">52</var>
+      <var name="Textures[8]">"69.A" "6.A" "50.A" "14.A" "7.A" "38.A" "43.A" "70.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask6_2.png"</var>
+      <var name="Segments">8</var>
+      <var name="Seed">52</var>
+      <var name="PointsX[8]">84.000000 110.000000 188.000000 298.000000 376.000000 421.000000 356.000000 229.000000</var>
+      <var name="PointsY[8]">293.000000 230.000000 82.000000 206.000000 428.000000 362.000000 410.000000 182.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt6_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm6_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg6_2_1.png"</var>
+      <var name="Seed">51</var>
+      <var name="Textures[8]">"56.A" "62.A" "51.A" "65.A" "58.A" "4.A" "33.A" "111.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm6_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg6_2_2.png"</var>
+      <var name="Seed">52</var>
+      <var name="Textures[8]">"69.A" "6.A" "50.A" "14.A" "7.A" "38.A" "43.A" "70.A"</var>
+    </section>
+  </section>
+  <section name="Set_7">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#9 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask7_1.png"</var>
+      <var name="Segments">9</var>
+      <var name="Seed">61</var>
+      <var name="PointsX[9]">387.000000 292.000000 92.000000 389.000000 370.000000 373.000000 415.000000 237.000000 298.000000</var>
+      <var name="PointsY[9]">365.000000 78.000000 182.000000 78.000000 138.000000 93.000000 129.000000 347.000000 311.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt7_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm7_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg7_1_1.png"</var>
+      <var name="Seed">61</var>
+      <var name="Textures[9]">"90.A" "96.A" "5.A" "68.A" "36.A" "9.A" "6.A" "97.A" "23.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm7_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg7_1_2.png"</var>
+      <var name="Seed">62</var>
+      <var name="Textures[9]">"113.A" "89.A" "66.A" "37.A" "58.A" "102.A" "90.A" "51.A" "38.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask7_2.png"</var>
+      <var name="Segments">9</var>
+      <var name="Seed">62</var>
+      <var name="PointsX[9]">360.000000 185.000000 406.000000 235.000000 303.000000 401.000000 416.000000 192.000000 374.000000</var>
+      <var name="PointsY[9]">444.000000 283.000000 257.000000 366.000000 191.000000 366.000000 167.000000 418.000000 371.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt7_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm7_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg7_2_1.png"</var>
+      <var name="Seed">61</var>
+      <var name="Textures[9]">"90.A" "96.A" "5.A" "68.A" "36.A" "9.A" "6.A" "97.A" "23.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm7_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg7_2_2.png"</var>
+      <var name="Seed">62</var>
+      <var name="Textures[9]">"113.A" "89.A" "66.A" "37.A" "58.A" "102.A" "90.A" "51.A" "38.A"</var>
+    </section>
+  </section>
+  <section name="Set_8">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#10 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask8_1.png"</var>
+      <var name="Segments">10</var>
+      <var name="Seed">71</var>
+      <var name="PointsX[10]">175.000000 314.000000 279.000000 97.000000 78.000000 228.000000 223.000000 94.000000 320.000000 347.000000</var>
+      <var name="PointsY[10]">77.000000 354.000000 332.000000 287.000000 296.000000 400.000000 173.000000 149.000000 143.000000 423.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt8_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm8_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg8_1_1.png"</var>
+      <var name="Seed">71</var>
+      <var name="Textures[10]">"5.A" "34.A" "87.A" "75.A" "80.A" "65.A" "67.A" "10.A" "70.A" "6.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm8_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg8_1_2.png"</var>
+      <var name="Seed">72</var>
+      <var name="Textures[10]">"49.A" "106.A" "112.A" "103.A" "44.A" "21.A" "93.A" "67.A" "5.A" "40.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask8_2.png"</var>
+      <var name="Segments">10</var>
+      <var name="Seed">72</var>
+      <var name="PointsX[10]">420.000000 408.000000 134.000000 286.000000 197.000000 148.000000 359.000000 332.000000 152.000000 416.000000</var>
+      <var name="PointsY[10]">227.000000 439.000000 210.000000 377.000000 78.000000 248.000000 301.000000 373.000000 304.000000 441.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt8_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm8_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg8_2_1.png"</var>
+      <var name="Seed">71</var>
+      <var name="Textures[10]">"5.A" "34.A" "87.A" "75.A" "80.A" "65.A" "67.A" "10.A" "70.A" "6.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm8_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg8_2_2.png"</var>
+      <var name="Seed">72</var>
+      <var name="Textures[10]">"49.A" "106.A" "112.A" "103.A" "44.A" "21.A" "93.A" "67.A" "5.A" "40.A"</var>
+    </section>
+  </section>
+  <section name="Set_9">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#11 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask9_1.png"</var>
+      <var name="Segments">11</var>
+      <var name="Seed">81</var>
+      <var name="PointsX[11]">371.000000 126.000000 396.000000 319.000000 370.000000 315.000000 313.000000 341.000000 125.000000 275.000000 85.000000</var>
+      <var name="PointsY[11]">443.000000 78.000000 136.000000 101.000000 414.000000 384.000000 145.000000 220.000000 137.000000 245.000000 185.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt9_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm9_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg9_1_1.png"</var>
+      <var name="Seed">81</var>
+      <var name="Textures[11]">"113.A" "92.A" "5.A" "19.A" "22.A" "99.A" "12.A" "76.A" "104.A" "91.A" "96.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm9_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg9_1_2.png"</var>
+      <var name="Seed">82</var>
+      <var name="Textures[11]">"62.A" "93.A" "109.A" "47.A" "44.A" "51.A" "23.A" "64.A" "2.A" "113.A" "89.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask9_2.png"</var>
+      <var name="Segments">11</var>
+      <var name="Seed">82</var>
+      <var name="PointsX[11]">376.000000 220.000000 232.000000 276.000000 442.000000 322.000000 383.000000 202.000000 191.000000 226.000000 316.000000</var>
+      <var name="PointsY[11]">272.000000 428.000000 209.000000 140.000000 69.000000 361.000000 271.000000 192.000000 110.000000 176.000000 104.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt9_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm9_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg9_2_1.png"</var>
+      <var name="Seed">81</var>
+      <var name="Textures[11]">"113.A" "92.A" "5.A" "19.A" "22.A" "99.A" "12.A" "76.A" "104.A" "91.A" "96.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm9_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg9_2_2.png"</var>
+      <var name="Seed">82</var>
+      <var name="Textures[11]">"62.A" "93.A" "109.A" "47.A" "44.A" "51.A" "23.A" "64.A" "2.A" "113.A" "89.A"</var>
+    </section>
+  </section>
+  <section name="Set_10">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"all"</var>
+    <var name="Note">"#12 - all"</var>
+    <section name="Mask_1">
+      <var name="File">"mask10_1.png"</var>
+      <var name="Segments">12</var>
+      <var name="Seed">91</var>
+      <var name="PointsX[12]">210.000000 204.000000 222.000000 79.000000 367.000000 218.000000 192.000000 347.000000 200.000000 137.000000 233.000000 129.000000</var>
+      <var name="PointsY[12]">96.000000 172.000000 163.000000 311.000000 157.000000 428.000000 160.000000 413.000000 425.000000 176.000000 124.000000 364.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt10_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm10_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg10_1_1.png"</var>
+      <var name="Seed">91</var>
+      <var name="Textures[12]">"10.A" "44.A" "33.A" "42.A" "30.A" "47.A" "74.A" "5.A" "28.A" "91.A" "109.A" "46.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm10_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg10_1_2.png"</var>
+      <var name="Seed">92</var>
+      <var name="Textures[12]">"56.A" "78.A" "42.A" "105.A" "108.A" "21.A" "57.A" "96.A" "12.A" "58.A" "26.A" "48.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask10_2.png"</var>
+      <var name="Segments">12</var>
+      <var name="Seed">92</var>
+      <var name="PointsX[12]">324.000000 414.000000 133.000000 387.000000 251.000000 222.000000 74.000000 424.000000 184.000000 143.000000 267.000000 149.000000</var>
+      <var name="PointsY[12]">250.000000 202.000000 427.000000 253.000000 101.000000 148.000000 181.000000 91.000000 354.000000 388.000000 345.000000 331.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt10_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm10_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg10_2_1.png"</var>
+      <var name="Seed">91</var>
+      <var name="Textures[12]">"10.A" "44.A" "33.A" "42.A" "30.A" "47.A" "74.A" "5.A" "28.A" "91.A" "109.A" "46.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm10_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg10_2_2.png"</var>
+      <var name="Seed">92</var>
+      <var name="Textures[12]">"56.A" "78.A" "42.A" "105.A" "108.A" "21.A" "57.A" "96.A" "12.A" "58.A" "26.A" "48.A"</var>
+    </section>
+  </section>
+  <section name="Set_11">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"bark"</var>
+    <var name="Note">"#6 - bark"</var>
+    <section name="Mask_1">
+      <var name="File">"mask11_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">101</var>
+      <var name="PointsX[6]">355.000000 341.000000 243.000000 435.000000 236.000000 391.000000</var>
+      <var name="PointsY[6]">81.000000 256.000000 417.000000 318.000000 369.000000 207.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt11_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm11_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg11_1_1.png"</var>
+      <var name="Seed">101</var>
+      <var name="Textures[6]">"1.A" "10.A" "7.A" "11.A" "12.A" "8.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm11_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg11_1_2.png"</var>
+      <var name="Seed">102</var>
+      <var name="Textures[6]">"1.A" "3.A" "2.A" "4.A" "8.A" "5.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask11_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">102</var>
+      <var name="PointsX[6]">123.000000 106.000000 187.000000 307.000000 395.000000 244.000000</var>
+      <var name="PointsY[6]">74.000000 110.000000 270.000000 313.000000 264.000000 288.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt11_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm11_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg11_2_1.png"</var>
+      <var name="Seed">101</var>
+      <var name="Textures[6]">"1.A" "10.A" "7.A" "11.A" "12.A" "8.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm11_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg11_2_2.png"</var>
+      <var name="Seed">102</var>
+      <var name="Textures[6]">"1.A" "3.A" "2.A" "4.A" "8.A" "5.A"</var>
+    </section>
+  </section>
+  <section name="Set_12">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"flowers"</var>
+    <var name="Note">"#6 - flowers"</var>
+    <section name="Mask_1">
+      <var name="File">"mask12_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">111</var>
+      <var name="PointsX[6]">167.000000 205.000000 220.000000 426.000000 216.000000 438.000000</var>
+      <var name="PointsY[6]">107.000000 198.000000 312.000000 438.000000 224.000000 336.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt12_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm12_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg12_1_1.png"</var>
+      <var name="Seed">111</var>
+      <var name="Textures[6]">"2.A" "3.A" "4.A" "5.A" "8.A" "6.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm12_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg12_1_2.png"</var>
+      <var name="Seed">112</var>
+      <var name="Textures[6]">"8.A" "5.A" "7.A" "9.A" "6.A" "10.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask12_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">112</var>
+      <var name="PointsX[6]">228.000000 300.000000 355.000000 91.000000 112.000000 227.000000</var>
+      <var name="PointsY[6]">342.000000 279.000000 273.000000 386.000000 276.000000 188.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt12_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm12_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg12_2_1.png"</var>
+      <var name="Seed">111</var>
+      <var name="Textures[6]">"2.A" "3.A" "4.A" "5.A" "8.A" "6.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm12_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg12_2_2.png"</var>
+      <var name="Seed">112</var>
+      <var name="Textures[6]">"8.A" "5.A" "7.A" "9.A" "6.A" "10.A"</var>
+    </section>
+  </section>
+  <section name="Set_13">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"glass"</var>
+    <var name="Note">"#6 - glass"</var>
+    <section name="Mask_1">
+      <var name="File">"mask13_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">121</var>
+      <var name="PointsX[6]">334.000000 91.000000 337.000000 261.000000 370.000000 351.000000</var>
+      <var name="PointsY[6]">348.000000 364.000000 145.000000 185.000000 202.000000 366.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt13_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm13_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg13_1_1.png"</var>
+      <var name="Seed">121</var>
+      <var name="Textures[6]">"6.A" "7.A" "8.A" "1.A" "2.A" "3.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm13_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg13_1_2.png"</var>
+      <var name="Seed">122</var>
+      <var name="Textures[6]">"4.A" "1.A" "2.A" "5.A" "3.A" "6.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask13_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">122</var>
+      <var name="PointsX[6]">107.000000 239.000000 310.000000 141.000000 147.000000 81.000000</var>
+      <var name="PointsY[6]">211.000000 140.000000 202.000000 165.000000 386.000000 221.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt13_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm13_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg13_2_1.png"</var>
+      <var name="Seed">121</var>
+      <var name="Textures[6]">"6.A" "7.A" "8.A" "1.A" "2.A" "3.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm13_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg13_2_2.png"</var>
+      <var name="Seed">122</var>
+      <var name="Textures[6]">"4.A" "1.A" "2.A" "5.A" "3.A" "6.A"</var>
+    </section>
+  </section>
+  <section name="Set_14">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"man-made"</var>
+    <var name="Note">"#6 - man-made"</var>
+    <section name="Mask_1">
+      <var name="File">"mask14_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">131</var>
+      <var name="PointsX[6]">125.000000 167.000000 101.000000 74.000000 313.000000 247.000000</var>
+      <var name="PointsY[6]">147.000000 439.000000 91.000000 374.000000 135.000000 368.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt14_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm14_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg14_1_1.png"</var>
+      <var name="Seed">131</var>
+      <var name="Textures[6]">"5.A" "4.A" "21.A" "6.A" "2.A" "3.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm14_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg14_1_2.png"</var>
+      <var name="Seed">132</var>
+      <var name="Textures[6]">"3.A" "4.A" "12.A" "10.A" "5.A" "9.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask14_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">132</var>
+      <var name="PointsX[6]">132.000000 236.000000 215.000000 286.000000 199.000000 275.000000</var>
+      <var name="PointsY[6]">111.000000 265.000000 107.000000 392.000000 161.000000 86.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt14_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm14_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg14_2_1.png"</var>
+      <var name="Seed">131</var>
+      <var name="Textures[6]">"5.A" "4.A" "21.A" "6.A" "2.A" "3.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm14_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg14_2_2.png"</var>
+      <var name="Seed">132</var>
+      <var name="Textures[6]">"3.A" "4.A" "12.A" "10.A" "5.A" "9.A"</var>
+    </section>
+  </section>
+  <section name="Set_15">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"nature"</var>
+    <var name="Note">"#6 - nature"</var>
+    <section name="Mask_1">
+      <var name="File">"mask15_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">141</var>
+      <var name="PointsX[6]">371.000000 382.000000 363.000000 370.000000 445.000000 246.000000</var>
+      <var name="PointsY[6]">424.000000 70.000000 417.000000 416.000000 442.000000 260.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt15_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm15_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg15_1_1.png"</var>
+      <var name="Seed">141</var>
+      <var name="Textures[6]">"10.A" "9.A" "1.A" "2.A" "3.A" "8.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm15_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg15_1_2.png"</var>
+      <var name="Seed">142</var>
+      <var name="Textures[6]">"3.A" "1.A" "2.A" "4.A" "10.A" "7.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask15_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">142</var>
+      <var name="PointsX[6]">91.000000 137.000000 294.000000 257.000000 276.000000 228.000000</var>
+      <var name="PointsY[6]">147.000000 117.000000 423.000000 274.000000 445.000000 188.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt15_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm15_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg15_2_1.png"</var>
+      <var name="Seed">141</var>
+      <var name="Textures[6]">"10.A" "9.A" "1.A" "2.A" "3.A" "8.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm15_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg15_2_2.png"</var>
+      <var name="Seed">142</var>
+      <var name="Textures[6]">"3.A" "1.A" "2.A" "4.A" "10.A" "7.A"</var>
+    </section>
+  </section>
+  <section name="Set_16">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"plants"</var>
+    <var name="Note">"#6 - plants"</var>
+    <section name="Mask_1">
+      <var name="File">"mask16_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">151</var>
+      <var name="PointsX[6]">82.000000 433.000000 337.000000 387.000000 192.000000 137.000000</var>
+      <var name="PointsY[6]">86.000000 321.000000 318.000000 119.000000 175.000000 365.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt16_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm16_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg16_1_1.png"</var>
+      <var name="Seed">151</var>
+      <var name="Textures[6]">"1.A" "2.A" "7.A" "10.A" "8.A" "9.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm16_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg16_1_2.png"</var>
+      <var name="Seed">152</var>
+      <var name="Textures[6]">"10.A" "4.A" "3.A" "2.A" "5.A" "9.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask16_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">152</var>
+      <var name="PointsX[6]">214.000000 128.000000 390.000000 84.000000 105.000000 343.000000</var>
+      <var name="PointsY[6]">430.000000 146.000000 195.000000 103.000000 341.000000 332.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt16_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm16_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg16_2_1.png"</var>
+      <var name="Seed">151</var>
+      <var name="Textures[6]">"1.A" "2.A" "7.A" "10.A" "8.A" "9.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm16_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg16_2_2.png"</var>
+      <var name="Seed">152</var>
+      <var name="Textures[6]">"10.A" "4.A" "3.A" "2.A" "5.A" "9.A"</var>
+    </section>
+  </section>
+  <section name="Set_17">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"rock"</var>
+    <var name="Note">"#6 - rock"</var>
+    <section name="Mask_1">
+      <var name="File">"mask17_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">161</var>
+      <var name="PointsX[6]">408.000000 89.000000 411.000000 292.000000 141.000000 391.000000</var>
+      <var name="PointsY[6]">295.000000 337.000000 186.000000 72.000000 312.000000 319.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt17_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm17_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg17_1_1.png"</var>
+      <var name="Seed">161</var>
+      <var name="Textures[6]">"7.A" "10.A" "8.A" "1.A" "4.A" "11.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm17_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg17_1_2.png"</var>
+      <var name="Seed">162</var>
+      <var name="Textures[6]">"4.A" "1.A" "8.A" "9.A" "5.A" "7.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask17_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">162</var>
+      <var name="PointsX[6]">75.000000 374.000000 291.000000 229.000000 180.000000 425.000000</var>
+      <var name="PointsY[6]">194.000000 339.000000 180.000000 255.000000 132.000000 277.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt17_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm17_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg17_2_1.png"</var>
+      <var name="Seed">161</var>
+      <var name="Textures[6]">"7.A" "10.A" "8.A" "1.A" "4.A" "11.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm17_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg17_2_2.png"</var>
+      <var name="Seed">162</var>
+      <var name="Textures[6]">"4.A" "1.A" "8.A" "9.A" "5.A" "7.A"</var>
+    </section>
+  </section>
+  <section name="Set_18">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"stone"</var>
+    <var name="Note">"#6 - stone"</var>
+    <section name="Mask_1">
+      <var name="File">"mask18_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">171</var>
+      <var name="PointsX[6]">252.000000 423.000000 145.000000 287.000000 393.000000 439.000000</var>
+      <var name="PointsY[6]">446.000000 421.000000 353.000000 425.000000 298.000000 441.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt18_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm18_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg18_1_1.png"</var>
+      <var name="Seed">171</var>
+      <var name="Textures[6]">"10.A" "5.A" "1.A" "2.A" "8.A" "3.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm18_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg18_1_2.png"</var>
+      <var name="Seed">172</var>
+      <var name="Textures[6]">"6.A" "3.A" "1.A" "9.A" "4.A" "10.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask18_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">172</var>
+      <var name="PointsX[6]">172.000000 371.000000 407.000000 90.000000 240.000000 173.000000</var>
+      <var name="PointsY[6]">288.000000 102.000000 152.000000 90.000000 378.000000 320.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt18_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm18_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg18_2_1.png"</var>
+      <var name="Seed">171</var>
+      <var name="Textures[6]">"10.A" "5.A" "1.A" "2.A" "8.A" "3.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm18_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg18_2_2.png"</var>
+      <var name="Seed">172</var>
+      <var name="Textures[6]">"6.A" "3.A" "1.A" "9.A" "4.A" "10.A"</var>
+    </section>
+  </section>
+  <section name="Set_19">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"textile"</var>
+    <var name="Note">"#6 - textile"</var>
+    <section name="Mask_1">
+      <var name="File">"mask19_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">181</var>
+      <var name="PointsX[6]">446.000000 392.000000 318.000000 239.000000 164.000000 417.000000</var>
+      <var name="PointsY[6]">192.000000 396.000000 291.000000 304.000000 437.000000 138.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt19_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm19_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg19_1_1.png"</var>
+      <var name="Seed">181</var>
+      <var name="Textures[6]">"4.A" "10.A" "9.A" "1.A" "6.A" "7.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm19_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg19_1_2.png"</var>
+      <var name="Seed">182</var>
+      <var name="Textures[6]">"5.A" "4.A" "10.A" "7.A" "3.A" "1.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask19_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">182</var>
+      <var name="PointsX[6]">198.000000 318.000000 444.000000 246.000000 128.000000 125.000000</var>
+      <var name="PointsY[6]">253.000000 435.000000 145.000000 393.000000 258.000000 426.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt19_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm19_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg19_2_1.png"</var>
+      <var name="Seed">181</var>
+      <var name="Textures[6]">"4.A" "10.A" "9.A" "1.A" "6.A" "7.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm19_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg19_2_2.png"</var>
+      <var name="Seed">182</var>
+      <var name="Textures[6]">"5.A" "4.A" "10.A" "7.A" "3.A" "1.A"</var>
+    </section>
+  </section>
+  <section name="Set_20">
+    <var name="Masks">2</var>
+    <var name="TMsPerMask">2</var>
+    <var name="TexSet">"wood"</var>
+    <var name="Note">"#6 - wood"</var>
+    <section name="Mask_1">
+      <var name="File">"mask20_1.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">191</var>
+      <var name="PointsX[6]">246.000000 249.000000 76.000000 284.000000 139.000000 89.000000</var>
+      <var name="PointsY[6]">239.000000 183.000000 179.000000 266.000000 133.000000 239.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_1">
+      <var name="File">"gt20_1.png"</var>
+      <var name="MaskRef">"Mask_1"</var>
+    </section>
+    <section name="TMMap_1_1">
+      <var name="File">"tm20_1_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg20_1_1.png"</var>
+      <var name="Seed">191</var>
+      <var name="Textures[6]">"5.A" "6.A" "4.A" "7.A" "8.A" "1.A"</var>
+    </section>
+    <section name="TMMap_1_2">
+      <var name="File">"tm20_1_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_1"</var>
+      <var name="SegmFile">"seg20_1_2.png"</var>
+      <var name="Seed">192</var>
+      <var name="Textures[6]">"9.A" "2.A" "10.A" "4.A" "1.A" "7.A"</var>
+    </section>
+    <section name="Mask_2">
+      <var name="File">"mask20_2.png"</var>
+      <var name="Segments">6</var>
+      <var name="Seed">192</var>
+      <var name="PointsX[6]">129.000000 205.000000 296.000000 80.000000 401.000000 436.000000</var>
+      <var name="PointsY[6]">385.000000 434.000000 373.000000 97.000000 113.000000 418.000000</var>
+      <var name="Rows">512</var>
+      <var name="Columns">512</var>
+      <var name="Type">1</var>
+    </section>
+    <section name="GTMap_2">
+      <var name="File">"gt20_2.png"</var>
+      <var name="MaskRef">"Mask_2"</var>
+    </section>
+    <section name="TMMap_2_1">
+      <var name="File">"tm20_2_1.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg20_2_1.png"</var>
+      <var name="Seed">191</var>
+      <var name="Textures[6]">"5.A" "6.A" "4.A" "7.A" "8.A" "1.A"</var>
+    </section>
+    <section name="TMMap_2_2">
+      <var name="File">"tm20_2_2.png"</var>
+      <var name="BW">0</var>
+      <var name="Key">0</var>
+      <var name="NN">1</var>
+      <var name="GTMapRef">"GTMap_2"</var>
+      <var name="SegmFile">"seg20_2_2.png"</var>
+      <var name="Seed">192</var>
+      <var name="Textures[6]">"9.A" "2.A" "10.A" "4.A" "1.A" "7.A"</var>
+    </section>
+  </section>
+  <section name="params">
+    <var name="nset">20</var>
+    <var name="bid">3</var>
+    <var name="vis">7</var>
+    <var name="k">2</var>
+    <var name="cl">0</var>
+    <var name="nt">-1</var>
+    <var name="ndl">0</var>
+    <section name="set_!1">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">3</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">1</var>
+      <var name="seed2">1</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#3 - all"</var>
+    </section>
+    <section name="set_!2">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">4</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">11</var>
+      <var name="seed2">11</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#4 - all"</var>
+    </section>
+    <section name="set_!3">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">5</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">21</var>
+      <var name="seed2">21</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#5 - all"</var>
+    </section>
+    <section name="set_!4">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">31</var>
+      <var name="seed2">31</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - all"</var>
+    </section>
+    <section name="set_!5">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">7</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">41</var>
+      <var name="seed2">41</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#7 - all"</var>
+    </section>
+    <section name="set_!6">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">8</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">51</var>
+      <var name="seed2">51</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#8 - all"</var>
+    </section>
+    <section name="set_!7">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">9</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">61</var>
+      <var name="seed2">61</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#9 - all"</var>
+    </section>
+    <section name="set_!8">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">10</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">71</var>
+      <var name="seed2">71</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#10 - all"</var>
+    </section>
+    <section name="set_!9">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">11</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">81</var>
+      <var name="seed2">81</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#11 - all"</var>
+    </section>
+    <section name="set_!10">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">12</var>
+      <var name="type">1</var>
+      <var name="tex">3</var>
+      <var name="bw">0</var>
+      <var name="seed">91</var>
+      <var name="seed2">91</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#12 - all"</var>
+    </section>
+    <section name="set_!11">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">4</var>
+      <var name="bw">0</var>
+      <var name="seed">101</var>
+      <var name="seed2">101</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - bark"</var>
+    </section>
+    <section name="set_!12">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">5</var>
+      <var name="bw">0</var>
+      <var name="seed">111</var>
+      <var name="seed2">111</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - flowers"</var>
+    </section>
+    <section name="set_!13">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">6</var>
+      <var name="bw">0</var>
+      <var name="seed">121</var>
+      <var name="seed2">121</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - glass"</var>
+    </section>
+    <section name="set_!14">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">7</var>
+      <var name="bw">0</var>
+      <var name="seed">131</var>
+      <var name="seed2">131</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - man-made"</var>
+    </section>
+    <section name="set_!15">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">8</var>
+      <var name="bw">0</var>
+      <var name="seed">141</var>
+      <var name="seed2">141</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - nature"</var>
+    </section>
+    <section name="set_!16">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">9</var>
+      <var name="bw">0</var>
+      <var name="seed">151</var>
+      <var name="seed2">151</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - plants"</var>
+    </section>
+    <section name="set_!17">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">10</var>
+      <var name="bw">0</var>
+      <var name="seed">161</var>
+      <var name="seed2">161</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - rock"</var>
+    </section>
+    <section name="set_!18">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">11</var>
+      <var name="bw">0</var>
+      <var name="seed">171</var>
+      <var name="seed2">171</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - stone"</var>
+    </section>
+    <section name="set_!19">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">12</var>
+      <var name="bw">0</var>
+      <var name="seed">181</var>
+      <var name="seed2">181</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - textile"</var>
+    </section>
+    <section name="set_!20">
+      <var name="nr">512</var>
+      <var name="nc">512</var>
+      <var name="num">6</var>
+      <var name="type">1</var>
+      <var name="tex">13</var>
+      <var name="bw">0</var>
+      <var name="seed">191</var>
+      <var name="seed2">191</var>
+      <var name="key">0</var>
+      <var name="nn">1</var>
+      <var name="n">2</var>
+      <var name="m">2</var>
+      <var name="note">"#6 - wood"</var>
+    </section>
+  </section>
+</main>
