@@ -25,9 +25,9 @@ ___
 **REFERENCE**:
 Mevenkamp, N., and Berkels, B. _Variational Multi-Phase Segmentation using High-Dimensional Local Features_. Applications of Computer Vision (WACV), 2016 IEEE Winter Conference on, 2016, (accepted)
 ___
-**CONTACT**:
+**CONTACT**:<br>
 Niklas Mevenkamp<br>
-Aachen Institute for Advanced Study in Computational Engineering Science
-RWTH Aachen University
-mevenkamp@aices.rwth-aachen.de
+Aachen Institute for Advanced Study in Computational Engineering Science<br>
+RWTH Aachen University<br>
+mevenkamp@aices.rwth-aachen.de<br>
 http://www.aices.rwth-aachen.de/people/mevenkamp
