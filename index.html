@@ -28,13 +28,53 @@
         </ul>
       </header>
       <section>
-        <h1>
-<a id="pca-ms" class="anchor" href="#pca-ms" aria-hidden="true"><span class="octicon octicon-link"></span></a>PCA-MS</h1>
+        <h3>
+<a id="pca-ms-variational-multi-phase-segmentation-using-high-dimensional-local-features" class="anchor" href="#pca-ms-variational-multi-phase-segmentation-using-high-dimensional-local-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>PCA-MS: Variational Multi-Phase Segmentation using High-Dimensional Local Features</h3>
 
-<h2>
-<a id="variational-multi-phase-segmentation-using-high-dimensional-local-features" class="anchor" href="#variational-multi-phase-segmentation-using-high-dimensional-local-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variational Multi-Phase Segmentation using High-Dimensional Local Features</h2>
+<hr>
 
-<p>A variational multi-phase segmentation framework based on the Mumford-Shah energy, combined with PCA-based dimension reduction is used to segment color or gray-value images into regions of different structure identified by high-dimensional features, such as local spectral histograms (for Texture) and localized Fourier transforms (for Crystals).</p>
+<p>A <strong>variational multi-phase segmentation</strong> framework based on the <strong>Mumford-Shah</strong> energy, combined with <strong>PCA</strong>-based dimension reduction is used to segment color or gray-value images into regions of different structure identified by <strong>high-dimensional features</strong>, such as <strong>local spectral histograms (Texture)</strong> or <strong>localized Fourier transforms (Crystals)</strong>.</p>
+
+<hr>
+
+<p><strong>CONTENTS</strong>: This package contains the C++ <strong>source code</strong> used to produce texture and crystal segmentation results published at WACV 2016 (see reference below).</p>
+
+<pre><code>|- quocmesh: source code
+|+ - quocmesh/finishedProjects/highDimFeatureSegmentation: WACV 2016 executables
+|- quocGCC: compilation folder
+|+ - quocGCC/go.sh: bash script for CMake (see README.txt)
+|- LICENSE.txt: Common Development and Distribution License
+|- README.txt: instructions for compilation (GCC, Linux or MacOSX) and execution
+|- data
+|+ - data/Crystals: ground truth crystal images (Figure 2)
+|+ - data/ICPR2014: ground truth segments and texture mosaics from the ICPR 2014 contest (Table 2)
+|+ - data/Outex: ground truth segments and texture mosaics from the Outex_US_00000 test suite converted from .ras to .png (Table 1)
+|- results: same structure as data; contains segmentations produced by this code
+|+ - results/ICPR2014/Raw: segmentations before TxtMerge post-processing
+|+ - results/ICPR2014/TxtMerge: segmentations after TxtMerge post-processing (using quocGCC/finishedProjects/highDimFeatureSegmentation/applyTxtMerge.m)
+</code></pre>
+
+<hr>
+
+<p><strong>INSTRUCTIONS</strong>: Please see the accompanying README.txt</p>
+
+<hr>
+
+<p><strong>LICENSE</strong>: PCA-MS is distributed under the terms of the <a href="LICENSE.txt">Common Development and Distribution License</a>.</p>
+
+<hr>
+
+<p><strong>REFERENCE</strong>:
+Mevenkamp, N., and Berkels, B. <em>Variational Multi-Phase Segmentation using High-Dimensional Local Features</em>. Applications of Computer Vision (WACV), 2016 IEEE Winter Conference on, 2016, (accepted)</p>
+
+<hr>
+
+<p><strong>CONTACT</strong>:<br>
+Niklas Mevenkamp<br>
+Aachen Institute for Advanced Study in Computational Engineering Science<br>
+RWTH Aachen University<br>
+<a href="mailto:mevenkamp@aices.rwth-aachen.de">mevenkamp@aices.rwth-aachen.de</a><br>
+<a href="http://www.aices.rwth-aachen.de/people/mevenkamp">http://www.aices.rwth-aachen.de/people/mevenkamp</a></p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/nmevenkamp">nmevenkamp</a></p>
