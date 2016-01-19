@@ -24,6 +24,5 @@ ___
 ___
 **CONTACT**: mevenkamp@aices.rwth-aachen.de
 ___
-In case you want to refer to PCA-MS, please use the following citation:
-
+**REFERENCE**:
 Mevenkamp, N., and Berkels, B. **Variational Multi-Phase Segmentation using High-Dimensional Local Features**. Applications of Computer Vision (WACV), 2016 IEEE Winter Conference on, 2016, (accepted)
