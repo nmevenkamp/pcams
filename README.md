@@ -3,7 +3,7 @@ ___
 A **variational multi-phase segmentation** framework based on the **Mumford-Shah** energy, combined with **PCA**-based dimension reduction is used to segment color or gray-value images into regions of different structure identified by **high-dimensional features**, such as **local spectral histograms (Texture)** or **localized Fourier transforms (Crystals)**.
 ___
 **CONTENTS**: This package contains the source code used to produce texture and crystal segmentation results published at WACV 2016 (see reference below).
-|- quocmesh (source code)
+|- quocmesh (source code)\n
 |+ - quocmesh/finishedProjects/highDimFeatureSegmentation (WACV 2016 executables)
 |- quocGCC (compilation folder)
 |+ - quocGCC/go.sh (adjust compiler path and call to execute CMake with required options; afterwards compile with make)
