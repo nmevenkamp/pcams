@@ -9,7 +9,7 @@ ___
     |- quocGCC: compilation folder
     |+ - quocGCC/go.sh: bash script for CMake (see README.txt)
     |- LICENSE.txt: Common Development and Distribution License
-    |- README.md: this README
+    |- README.txt: instructions for compilation (GCC, Linux or MacOSX) and execution
     |- data
     |+ - data/Crystals: ground truth crystal images (Figure 2)
     |+ - data/ICPR2014: ground truth segments and texture mosaics from the ICPR 2014 contest (Table 2)
@@ -17,6 +17,8 @@ ___
     |- results: same structure as data; contains segmentations produced by this code
     |+ - results/ICPR2014/Raw: segmentations before TxtMerge post-processing
     |+ - results/ICPR2014/TxtMerge: segmentations after TxtMerge post-processing (using quocGCC/finishedProjects/highDimFeatureSegmentation/applyTxtMerge.m)
+___
+INSTRUCTIONS: Please see the accompanying README.txt
 ___
 **LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
 ___
