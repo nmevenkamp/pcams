@@ -20,7 +20,7 @@ ___
 ___
 **INSTRUCTIONS**: Please see the accompanying README.txt
 ___
-**LICENSE*: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
+**LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
 ___
 **CONTACT**: mevenkamp@aices.rwth-aachen.de
 ___
