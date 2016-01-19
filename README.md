@@ -17,7 +17,6 @@ ___
     |- results: same structure as data; contains segmentations produced by this code
     |+ - results/ICPR2014/Raw: segmentations before TxtMerge post-processing
     |+ - results/ICPR2014/TxtMerge: segmentations after TxtMerge post-processing (using quocGCC/finishedProjects/highDimFeatureSegmentation/applyTxtMerge.m)
-___
 **INSTRUCTIONS**: Please see the accompanying **README.txt**
 ___
 **LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
