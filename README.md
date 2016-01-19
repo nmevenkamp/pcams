@@ -22,7 +22,7 @@ ___
 ___
 **LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
 ___
-**CONTACT**: mevenkamp@aices.rwth-aachen.de
-___
 **REFERENCE**:
 Mevenkamp, N., and Berkels, B. _Variational Multi-Phase Segmentation using High-Dimensional Local Features_. Applications of Computer Vision (WACV), 2016 IEEE Winter Conference on, 2016, (accepted)
+___
+**CONTACT**: mevenkamp@aices.rwth-aachen.de
