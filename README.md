@@ -4,7 +4,7 @@ ___
 **CONTENTS**: C++ **source code** reproducing texture and crystal segmentation results presented at the **IEEE Winter Conference on Applications of Computer Vision (WACV 2016)** - see reference below.
 
     |- quocmesh/                                            source code
-    |+ - finishedProjects/highDi...tation/applyTxtMerge.m   MATLAB script to apply TxtMerge post-processing
+    |+ - finishedProjects/highDi...tation/applyTxtMerge.m   MATLAB script for TxtMerge post-processing
     |
     |- quocGCC/                                             compilation folder
     |+ - go.sh                                              bash script for CMake (see README.txt)
