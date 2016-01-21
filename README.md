@@ -2,21 +2,15 @@
 ___
 A **variational multi-phase segmentation** framework based on the **Mumford-Shah** energy, combined with **PCA**-based dimension reduction is used to segment color or gray-value images into regions of different structure identified by **high-dimensional features**, such as **local spectral histograms (Texture)** or **localized Fourier transforms (Crystals)**.
 ___
-**CONTENTS**: C++ **source code** reproducing texture and crystal segmentation results published at the **IEEE Winter Conference on Applications of Computer Vision (WACV 2016)** (see reference below).
+**CONTENTS**: C++ **source code** reproducing texture and crystal segmentation results presented at the **IEEE Winter Conference on Applications of Computer Vision (WACV 2016)** - see reference below.
 
     |- quocmesh: source code
-    |+ - quocmesh/finishedProjects/highDimFeatureSegmentation: WACV 2016 executables
+    |+ - quocmesh/finishedProjects/highDimFeatureSegmentation/applyTxtMerge.m: MATLAB script to apply TxtMerge post-processing
     |- quocGCC: compilation folder
     |+ - quocGCC/go.sh: bash script for CMake (see README.txt)
+    |+ - quocGCC/finishedProjects/highDimFeatureSegmentation: WACV 2016 executables; created during compilation
     |- LICENSE.txt: Common Development and Distribution License
     |- README.txt: instructions for compilation (GCC, Linux or MacOSX) and execution
-    |- data
-    |+ - data/Crystals: ground truth crystal images (Figure 2)
-    |+ - data/ICPR2014: ground truth segments and texture mosaics from the ICPR 2014 contest (Table 2)
-    |+ - data/Outex: ground truth segments and texture mosaics from the Outex_US_00000 test suite converted from .ras to .png (Table 1)
-    |- results: same structure as data; contains segmentations produced by this code
-    |+ - results/ICPR2014/Raw: segmentations before TxtMerge post-processing
-    |+ - results/ICPR2014/TxtMerge: segmentations after TxtMerge post-processing (using quocGCC/finishedProjects/highDimFeatureSegmentation/applyTxtMerge.m)
 **INSTRUCTIONS**: Please see the accompanying **README.txt**
 ___
 **LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
