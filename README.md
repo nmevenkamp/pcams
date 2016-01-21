@@ -8,7 +8,7 @@ ___
     |
     |- quocGCC/                                             compilation folder
     |+ - go.sh                                              bash script for CMake (see README.txt)
-    |+ - finishedProjects/highDimFeatureSegmentation        WACV 2016 executables (created during compilation)
+    |+ - finishedProjects/highDimFeatureSegmentation        executables
     |
     |- LICENSE.txt                                          Common Development and Distribution License
     |- README.txt                                           intructions for compilation and execution
