@@ -29,32 +29,30 @@
       </header>
       <section>
         <h3>
-<a id="pca-ms-variational-multi-phase-segmentation-using-high-dimensional-local-features" class="anchor" href="#pca-ms-variational-multi-phase-segmentation-using-high-dimensional-local-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>PCA-MS: Variational Multi-Phase Segmentation using High-Dimensional Local Features</h3>
-
-<hr>
+<a id="pca-ms-variational-multi-phase-segmentation-using-high-dimensional-local-features" class="anchor" href="#pca-ms-variational-multi-phase-segmentation-using-high-dimensional-local-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PCA-MS: Variational Multi-Phase Segmentation using High-Dimensional Local Features</h3>
 
 <p>A <strong>variational multi-phase segmentation</strong> framework based on the <strong>Mumford-Shah</strong> energy, combined with <strong>PCA</strong>-based dimension reduction is used to segment color or gray-value images into regions of different structure identified by <strong>high-dimensional features</strong>, such as <strong>local spectral histograms (Texture)</strong> or <strong>localized Fourier transforms (Crystals)</strong>.</p>
 
 <hr>
 
-<p><strong>CONTENTS</strong>: C++ <strong>source code</strong> reproducing texture and crystal segmentation results published at the <strong>IEEE Winter Conference on Applications of Computer Vision (WACV 2016)</strong> (see reference below).</p>
+<p><strong>CONTENTS</strong>: C++ <strong>source code</strong> reproducing texture and crystal segmentation results presented at the <strong>IEEE Winter Conference on Applications of Computer Vision (WACV 2016)</strong> - see reference below.</p>
 
-<pre><code>|- quocmesh: source code
-|+ - quocmesh/finishedProjects/highDimFeatureSegmentation: WACV 2016 executables
-|- quocGCC: compilation folder
-|+ - quocGCC/go.sh: bash script for CMake (see README.txt)
-|- LICENSE.txt: Common Development and Distribution License
-|- README.txt: instructions for compilation (GCC, Linux or MacOSX) and execution
-|- data
-|+ - data/Crystals: ground truth crystal images (Figure 2)
-|+ - data/ICPR2014: ground truth segments and texture mosaics from the ICPR 2014 contest (Table 2)
-|+ - data/Outex: ground truth segments and texture mosaics from the Outex_US_00000 test suite converted from .ras to .png (Table 1)
-|- results: same structure as data; contains segmentations produced by this code
-|+ - results/ICPR2014/Raw: segmentations before TxtMerge post-processing
-|+ - results/ICPR2014/TxtMerge: segmentations after TxtMerge post-processing (using quocGCC/finishedProjects/highDimFeatureSegmentation/applyTxtMerge.m)
+<pre><code>|- quocmesh/                                            source code
+|+ - finishedProjects/highDi...tation/applyTxtMerge.m   MATLAB script for TxtMerge post-processing
+|
+|- quocGCC/                                             compilation folder
+|+ - go.sh                                              bash script for CMake (see README.txt)
+|+ - finishedProjects/highDimFeatureSegmentation        executables (created during compilation)
+|
+|- LICENSE.txt                                          Common Development and Distribution License
+|- README.txt                                           intructions for compilation and execution
 </code></pre>
 
-<p><strong>INSTRUCTIONS</strong>: Please see the accompanying <strong>README.txt</strong></p>
+<p><strong>INSTRUCTIONS</strong>: Please refer to the accompanying <strong>README.txt</strong></p>
+
+<hr>
+
+<p><strong>DATA &amp; RESULTS</strong>: <a href="http://nmevenkamp.github.io/pcams-data-wacv2016">http://nmevenkamp.github.io/pcams-data-wacv2016</a></p>
 
 <hr>
 
