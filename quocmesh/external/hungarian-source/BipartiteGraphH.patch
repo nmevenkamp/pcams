@@ -1,0 +1,54 @@
+--- /Volumes/Data/Downloads/hungarian-v2.0/BipartiteGraph.h	2013-06-18 13:19:46.000000000 +0200
++++ /Volumes/Data/Cpp/quocmesh/external/hungarian-source/BipartiteGraph.h	2015-07-20 14:20:30.000000000 +0200
+@@ -10,7 +10,7 @@
+ #ifndef BIPARTITE_GRAPH_H
+ #define BIPARTITE_GRAPH_H
+ 
+-#include "Matrix.h"
++#include "HungarianMatrix.h"
+ #include "Assignment.h"
+ 
+ 
+@@ -29,7 +29,7 @@
+   BipartiteGraph(size_t _num_agents = AGENTS_SIZE, size_t _num_tasks = TASKS_SIZE):
+ 	num_matched(0), num_agents(_num_agents),num_tasks(_num_tasks){}
+ 
+-  BipartiteGraph(Matrix& m){ this->ConstructBG(m); }
++  BipartiteGraph(HungarianMatrix& m){ this->ConstructBG(m); }
+ 
+   ~BipartiteGraph(){}
+ 
+@@ -47,9 +47,9 @@
+   vector<Vertex>* GetAgents(void){ return &agents; }
+   vector<Vertex>* GetTasks(void){ return &tasks; }
+ 
+-  Matrix* GetMatrix(void){ return &bg_matrix; }
++  HungarianMatrix* GetMatrix(void){ return &bg_matrix; }
+   Edge* GetMatrix(EID& _eid){return &bg_matrix[_eid.first][_eid.second];}
+-  Edge* GetMatrix(size_t row_index, size_t col_index){ 
++  Edge* GetMatrix(size_t row_index, size_t col_index){
+ 		return &bg_matrix[row_index][col_index]; }
+ 
+   void DisplayLabels(void);
+@@ -60,10 +60,10 @@
+ 
+   //Construct a bipartite graph based on a specific matrix
+   //All argments are initialized in it
+-  void ConstructBG(Matrix&);
++  void ConstructBG(HungarianMatrix&);
+  
+   //Check if a bipartite graph is feasible or not
+-  bool CheckFeasibility(Matrix&, vector<Vertex>&, vector<Vertex>&);
++  bool CheckFeasibility(HungarianMatrix&, vector<Vertex>&, vector<Vertex>&);
+   bool CheckFeasibility(void);
+  
+ private:
+@@ -76,7 +76,7 @@
+   //data members storing vertices, and matrix that contains edges/utils
+   vector<Vertex> agents;
+   vector<Vertex> tasks; 
+-  Matrix bg_matrix;
++  HungarianMatrix bg_matrix;
+ 
+ };
+ 

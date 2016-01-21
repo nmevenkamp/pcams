@@ -366,6 +366,22 @@ public:
                                                  aol::Tensor3rdOrder< NumberOfDeformParameters, NumberOfDeformParameters, ConfiguratorType::Dim, RealType > &Hessian ) const {
     Hessian.setZero();
   }
+  void evaluateSpatialJacobianOn01 ( const typename ConfiguratorType::VecType &/*Position*/,
+                                     aol::Mat< ConfiguratorType::Dim, ConfiguratorType::Dim, RealType > &Jacobian ) const {
+    Jacobian.setIdentity();
+  }
+  void evaluateSpatialJacobianOn0N ( const typename ConfiguratorType::VecType &/*Position*/,
+                                     aol::Mat< ConfiguratorType::Dim, ConfiguratorType::Dim, RealType > &Jacobian ) const {
+    Jacobian.setIdentity();
+  }
+  void evaluateMixedHessionOn01 ( const typename ConfiguratorType::VecType &/*Position*/,
+                                  aol::Tensor3rdOrder< NumberOfDeformParameters, ConfiguratorType::Dim, ConfiguratorType::Dim, RealType > &Hessian ) const {
+    Hessian.setZero();
+  }
+  void evaluateMixedHessionOn0N ( const typename ConfiguratorType::VecType &/*Position*/,
+                                  aol::Tensor3rdOrder< NumberOfDeformParameters, ConfiguratorType::Dim, ConfiguratorType::Dim, RealType > &Hessian ) const {
+    Hessian.setZero();
+  }
 };
 
 /**

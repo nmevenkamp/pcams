@@ -1,0 +1,20 @@
+--- /Volumes/Data/Downloads/hungarian-v2.0/Hungarian.h	2013-06-18 13:55:56.000000000 +0200
++++ /Volumes/Data/Cpp/quocmesh/external/hungarian-source/Hungarian.h	2015-07-20 14:20:30.000000000 +0200
+@@ -20,7 +20,7 @@
+ 
+ #include "Assignment.h"
+ #include "BipartiteGraph.h"
+-#include "PlotGraph.h"
++//#include "PlotGraph.h"
+ 
+ 
+ ///////////////////////////////////////////////////////////////////////////////
+@@ -107,7 +107,7 @@
+ 
+   void DisplayLabels(vector<Vertex>&);
+ 
+-  void DisplayMatrix(Matrix&);
++  void DisplayMatrix(HungarianMatrix&);
+   void DisplayConfig(BipartiteGraph&);
+ 
+ //data member

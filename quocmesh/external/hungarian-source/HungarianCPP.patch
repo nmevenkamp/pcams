@@ -1,0 +1,135 @@
+--- /Volumes/Data/Downloads/hungarian-v2.0/Hungarian.cpp	2013-06-18 14:11:10.000000000 +0200
++++ /Volumes/Data/Cpp/quocmesh/external/hungarian-source/Hungarian.cpp	2015-07-20 14:20:19.000000000 +0200
+@@ -1,18 +1,20 @@
+ 
+ #include "Hungarian.h"
+ 
+-extern int _Verbose;
+-extern bool _Plot;
++//extern int _Verbose;
++//extern bool _Plot;
+ 
+ void
+ Hungarian::HungarianAlgo(BipartiteGraph& _bg, vector<VID>& _S, vector<VID>& _T,
+                         vector<VID>& _N, vector<EID>& _EG, vector<EID>& _M){
+-  PlotGraph plot;
+-  if(_Plot){
+-    //remove all previous temp files in /tmp
+-    if(system("rm /tmp/gnuplot-i*")) cout<<endl;
+-    plot.InitPlot();  
+-  }
++  
++  int _Verbose = false;
++//  PlotGraph plot;
++//  if(_Plot){
++//    //remove all previous temp files in /tmp
++//    if(system("rm /tmp/gnuplot-i*")) cout<<endl;
++//    plot.InitPlot();  
++//  }
+ 
+   if(_Verbose){
+     cout<<"The initial labels for vertices:"<<endl;
+@@ -28,10 +30,10 @@
+     
+     while(1){
+       RefreshBG(_bg, _S, _T, _N, _EG, _M);
+-      if(_Plot){
+-        plot.PlotBipartiteGraph(_bg, _S, _T, _N, _EG, _M);	  
+-	if(!plot.GetPeriod()){ cout<<"Please press Enter to continue: "<<endl; cin.get(); }
+-      }
++//      if(_Plot){
++//        plot.PlotBipartiteGraph(_bg, _S, _T, _N, _EG, _M);	  
++//	if(!plot.GetPeriod()){ cout<<"Please press Enter to continue: "<<endl; cin.get(); }
++//      }
+       
+       //if need relabel, update labels
+       if(NeedReLabel(_T, _N)){
+@@ -46,10 +48,10 @@
+       RefreshBG(_bg, _S, _T, _N, _EG, _M);
+       if(_Verbose > 1)
+ 	DisplayData(1,1,1,1,1);
+-      if(_Plot){
+-        plot.PlotBipartiteGraph(_bg, _S, _T, _N, _EG, _M);	  
+-	if(!plot.GetPeriod()){ cout<<"Please press Enter to continue: "<<endl; cin.get(); }
+-      }
++//      if(_Plot){
++//        plot.PlotBipartiteGraph(_bg, _S, _T, _N, _EG, _M);	  
++//	if(!plot.GetPeriod()){ cout<<"Please press Enter to continue: "<<endl; cin.get(); }
++//      }
+ 
+       //if not need relabel
+       if(!NeedReLabel(_T, _N)){
+@@ -73,11 +75,11 @@
+ 	    cout<<"After augmenting path: "<<endl;
+ 	    DisplayData(1,1,1,1,1);
+ 	  }
+-	  if(_Plot){
+-	    plot.PlotAugmentingPath(_bg, _path);
+-	    plot.PlotBipartiteGraph(_bg, _S, _T, _N, _EG, _M, y);	  
+-	    if(!plot.GetPeriod()){ cout<<"Please press Enter to continue: "<<endl; cin.get(); }
+-	  }
++//	  if(_Plot){
++//	    plot.PlotAugmentingPath(_bg, _path);
++//	    plot.PlotBipartiteGraph(_bg, _S, _T, _N, _EG, _M, y);	  
++//	    if(!plot.GetPeriod()){ cout<<"Please press Enter to continue: "<<endl; cin.get(); }
++//	  }
+ 
+ 	  break; //break innter while
+         }
+@@ -95,6 +97,7 @@
+     } //while(1)
+   }//while(perfect)
+   
++  if(_Verbose){
+   cout<<endl<<"*****************************************************"<<endl;
+   cout<<endl<<"Your queried assignment problem is:"<<endl;
+   DisplayMatrix(*(_bg.GetMatrix()));
+@@ -107,14 +110,15 @@
+   cout<<endl;
+   cout<<endl<<"*****************************************************"<<endl;
+   cout<<endl;
++  }
+ 
+ 
+-  if(_Plot){
+-    cout << "Please press Enter to terminate: "<<endl<<endl;
+-    plot.SetPeriod(POS_INF);
+-    cin.get();
+-    plot.ClosePlot();
+-  }
++//  if(_Plot){
++//    cout << "Please press Enter to terminate: "<<endl<<endl;
++//    plot.SetPeriod(POS_INF);
++//    cin.get();
++//    plot.ClosePlot();
++//  }
+ 
+ }
+ 
+@@ -253,6 +257,8 @@
+ 
+ vector<EID> 
+ Hungarian::BFSAugmentingPath(BipartiteGraph& _bg, VID x, VID y){
++  int _Verbose = false;
++  
+   size_t tasks_size = _bg.GetNumTasks();
+   size_t agents_size = _bg.GetNumAgents();
+   bool found = false;
+@@ -422,6 +428,8 @@
+ 
+ double
+ Hungarian::UpdateLabels(BipartiteGraph& _bg){
++  int _Verbose = false;
++  
+   double delta;
+   double _min_delta = POS_INF;
+   
+@@ -534,7 +542,7 @@
+ 
+ 
+ void
+-Hungarian::DisplayMatrix(Matrix& _m){
++Hungarian::DisplayMatrix(HungarianMatrix& _m){
+ 
+   if(_m[0].size() > 30){
+     cout<<"Matrix is big, no displaying. "<<endl;

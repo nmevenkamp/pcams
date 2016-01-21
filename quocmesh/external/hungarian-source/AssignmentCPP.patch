@@ -1,0 +1,41 @@
+--- /Volumes/Data/Downloads/hungarian-v2.0/Assignment.cpp	2011-12-09 11:22:06.000000000 +0100
++++ /Volumes/Data/Cpp/quocmesh/external/hungarian-source/Assignment.cpp	2015-07-20 14:20:30.000000000 +0200
+@@ -2,7 +2,7 @@
+ #include "Assignment.h"
+ 
+ 
+-Matrix 
++HungarianMatrix
+ Assignment::RandomGenerate(size_t nrows, size_t ncols, int MAX, unsigned int _seed){
+  
+   //accept new seed for random generator
+@@ -16,7 +16,7 @@
+   this->num_tasks = ncols;
+ 
+   //define a matrix
+-  Matrix matrix;
++  HungarianMatrix matrix;
+   matrix.resize(nrows);
+   for(unsigned int i=0; i<nrows; i++)
+     matrix[i].resize(ncols);
+@@ -31,9 +31,9 @@
+   return matrix;
+ }
+ 
+-Matrix
++HungarianMatrix
+ Assignment::ImportAssignment(ifstream& input_file){
+-  Matrix matrix;
++  HungarianMatrix matrix;
+   string line;
+   vector<double> numstream;
+ 
+@@ -106,7 +106,7 @@
+ 
+ 
+ void
+-Assignment::DisplayMatrix(Matrix& m) const{
++Assignment::DisplayMatrix(HungarianMatrix& m) const{
+ 
+   if(m[0].size()>30){
+     cout<<endl<<"Queried assignment matrix is big, not displaying."<<endl;

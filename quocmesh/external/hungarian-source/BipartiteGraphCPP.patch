@@ -1,0 +1,20 @@
+--- /Volumes/Data/Downloads/hungarian-v2.0/BipartiteGraph.cpp	2013-06-18 13:24:50.000000000 +0200
++++ /Volumes/Data/Cpp/quocmesh/external/hungarian-source/BipartiteGraph.cpp	2015-07-20 14:20:13.000000000 +0200
+@@ -20,7 +20,7 @@
+ 
+ 
+ void
+-BipartiteGraph::ConstructBG(Matrix& m){
++BipartiteGraph::ConstructBG(HungarianMatrix& m){
+ 
+   num_agents = m.size();
+   num_tasks = m[0].size();
+@@ -75,7 +75,7 @@
+ }
+  
+ bool
+-BipartiteGraph::CheckFeasibility(Matrix& _m, 
++BipartiteGraph::CheckFeasibility(HungarianMatrix& _m,
+ 		vector<Vertex>& _agents, vector<Vertex>& _tasks){
+   //check the size for args
+   if(_m.size() != _agents.size() || _m[0].size() != _tasks.size()){

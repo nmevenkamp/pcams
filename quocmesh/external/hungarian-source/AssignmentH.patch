@@ -1,0 +1,29 @@
+--- /Volumes/Data/Downloads/hungarian-v2.0/Assignment.h	2011-10-18 12:50:06.000000000 +0200
++++ /Volumes/Data/Cpp/quocmesh/external/hungarian-source/Assignment.h	2015-07-20 14:19:42.000000000 +0200
+@@ -13,7 +13,7 @@
+ #define ASSIGNMENT_H
+ 
+ 
+-#include "Matrix.h"
++#include "HungarianMatrix.h"
+ 
+ //#define SEED 0  //uniformly defined in Matrix.h
+ 
+@@ -39,14 +39,14 @@
+ 
+   //Randomly generate an assignment-matrix, the default arguments are pre-set
+   //Currently can generate only integer numbers
+-  Matrix RandomGenerate(size_t nrows = AGENTS_SIZE, size_t ncols = TASKS_SIZE, 
++  HungarianMatrix RandomGenerate(size_t nrows = AGENTS_SIZE, size_t ncols = TASKS_SIZE,
+ 		int MAX = 100, unsigned int _seed = SEED);
+  
+   //Import an assignment-matrix from external file
+-  Matrix ImportAssignment(ifstream&);
++  HungarianMatrix ImportAssignment(ifstream&);
+ 
+   //Display matrix onto screen
+-  void DisplayMatrix(Matrix&) const;
++  void DisplayMatrix(HungarianMatrix&) const;
+ 
+ 
+ private:

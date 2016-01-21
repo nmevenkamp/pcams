@@ -692,9 +692,9 @@ protected:
  *  i.e. \f$ \theta = (\theta^1, \theta^2): T \rightarrow \R^2, (\xi, \eta) \mapsto \theta(\xi, \eta) \f$.
  *  We shall use the notation \f$ w(\xi,\eta) = ( H_x W, H_y W )^T \f$.
  * 
- *  In applications with DKT the most relevant object is the stiffnes matrix \f$ L_ij = \int C \eps[\theta_i] : \eps[\theta_j] dx \f$,
- *  where \f$ \eps[\theta] \in \R^{2,2} \f$ denotes the symmetrized gradient and \f$ C \f$ is the elastic tensor, 
- *  i.e. \f$ \eps[\theta]_ij = 1/2 ( \partial_i\theta^j + \partial_j\theta^i) \f$.
+ *  In applications with DKT the most relevant object is the stiffnes matrix \f$ L_ij = \int C \epsilon[\theta_i] : \epsilon[\theta_j] dx \f$,
+ *  where \f$ \epsilon[\theta] \in \R^{2,2} \f$ denotes the symmetrized gradient and \f$ C \f$ is the elastic tensor, 
+ *  i.e. \f$ \epsilon[\theta]_ij = 1/2 ( \partial_i\theta^j + \partial_j\theta^i) \f$.
  *  However, the evaluation of the gradient of \f$ \theta \f$ returns \f$ ( \partial_1\theta^1, \partial_2\theta^2, \partial_1\theta^2 + \partial_2\theta^1 ) \in \R^3 \f$.
  * 
  *  As there is no direct need for evaluations of \f$ \theta \f$, we did not implement them so far.

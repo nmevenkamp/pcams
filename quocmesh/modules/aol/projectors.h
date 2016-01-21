@@ -28,7 +28,7 @@ public:
  *  \brief Provides a class that projects vectors onto a box (possibly only in part of the dimensions)
  *
  *  \f[x \in \mathbb{R}^n is projected onto B = \{ x \in \mathbb{R}^n : l_i \leq x_i \leq u_i \forall i \text{ with } c_i=1 \}\f],
- *  where \f[l \in \mathbb{R}^n are the lower bounds, \f[u \in \mathbb{R}^n\f] the upper bounds
+ *  where \f[l \in \mathbb{R}^n\f] are the lower bounds, \f[u \in \mathbb{R}^n\f] the upper bounds
  *  and \f[c \in \{0,1\}^n\f] is a BitVector indicating for each dimension if it should be constrained or not.
  *
  *  \author mevenkamp
