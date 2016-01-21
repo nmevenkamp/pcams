@@ -11,20 +11,25 @@ COMPILE INSTRUCTIONS (for GCC under Linux or MacOSX)
 4) execute "sh go.sh"
 5) execute "make"
 
-Afterwards, inside the terminal, you can execute
-"Run_Clustering_Outex", "Run_PCAMS_Crystals", "Run_PCAMS_ICPR2014" and "Run_PCAMS_Outex"
-inside "quocGCC/finishedProjects/highDimFeatureSegmentation". The usage is:
-Run_... <sourceDirectory> <outputDirectory>
+Afterwards, inside the terminal, you can execute either of the following
+
+Run_Clustering_Outex
+Run_PCAMS_Crystals
+Run_PCAMS_ICPR2014
+Run_PCAMS_Outex
+
+inside "quocGCC/finishedProjects/highDimFeatureSegmentation".
+The usage is: Run_... <sourceDirectory> <outputDirectory>
 
 In order to perform the TxtMerge post-processing used in Table 2, use
 "quocmesh/finishedProjects/applyTxtMerge.m".
 Please regard the required setup procedure detailed in the accompanying README file.
 
-The data folder contains the texture mosaics and crystal images used in the WACV 2016 publication (see below).
-The results folder contains reference segmentations (use to check if the code is working properly).
+The data and results used in the WACV 2016 paper can be downloaded here:
 
-If you have any further questions regarding the code or the algorithm, please contact me:
-mevenkamp@aices.rwth-aachen.de
+
+If you have any further questions regarding the code or the algorithm,
+please feel free to contact me: mevenkamp@aices.rwth-aachen.de
 
 
 In case you want to refer to PCA-MS, please use the following citation:
