@@ -3,17 +3,15 @@ A **variational multi-phase segmentation** framework based on the **Mumford-Shah
 ___
 **CONTENTS**: C++ **source code** reproducing texture and crystal segmentation results presented at the **IEEE Winter Conference on Applications of Computer Vision (WACV 2016)** - see reference below.
 
-    |- quocmesh/        source code
-    |+ - finishedProjects/highDimFeatureSegmentation/applyTxtMerge.m
-    |                   MATLAB script to apply TxtMerge post-processing
+    |- quocmesh/                                            source code
+    |+ - finishedProjects/highDi...tation/applyTxtMerge.m   MATLAB script to apply TxtMerge post-processing
     |
-    |- quocGCC/         compilation folder
-    |+ - go.sh          bash script for CMake (see README.txt)
-    |+ - finishedProjects/highDimFeatureSegmentation
-    |                   WACV 2016 executables (created during compilation)
+    |- quocGCC/                                             compilation folder
+    |+ - go.sh                                              bash script for CMake (see README.txt)
+    |+ - finishedProjects/highDimFeatureSegmentation        WACV 2016 executables (created during compilation)
     |
-    |- LICENSE.txt      Common Development and Distribution License
-    |- README.txt       instructions for compilation (GCC; Linux or MacOSX) and execution
+    |- LICENSE.txt                                          Common Development and Distribution License
+    |- README.txt                                           intructions for compilation and execution
 **INSTRUCTIONS**: Please see the accompanying **README.txt**
 ___
 **LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
