@@ -12,7 +12,8 @@ ___
     |
     |- LICENSE.txt                                          Common Development and Distribution License
     |- README.txt                                           intructions for compilation and execution
-**INSTRUCTIONS**: Please see the accompanying **README.txt**
+**INSTRUCTIONS**: Please refer to the accompanying **README.txt**
+**DATA & RESULTS**: [http://nmevenkamp.github.io/pcams-data-wacv2016]http://nmevenkamp.github.io/pcams-data-wacv2016)
 ___
 **LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
 ___
