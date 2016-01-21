@@ -10,7 +10,7 @@ ___
     |+ - quocGCC/go.sh: bash script for CMake (see README.txt)
     |+ - quocGCC/finishedProjects/highDimFeatureSegmentation: WACV 2016 executables; created during compilation
     |- LICENSE.txt: Common Development and Distribution License
-    |- README.txt: instructions for compilation (GCC, Linux or MacOSX) and execution
+    |- README.txt: instructions for compilation (GCC; Linux or MacOSX) and execution
 **INSTRUCTIONS**: Please see the accompanying **README.txt**
 ___
 **LICENSE**: PCA-MS is distributed under the terms of the [Common Development and Distribution License](LICENSE.txt).
